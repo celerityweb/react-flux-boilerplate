@@ -33,8 +33,8 @@ This application uses reflux for data flow which is a simplified version of the 
 
 ### Getting Started
 <code>
-git clone https://github.com/celerityweb/redpop.git
-cd redpop
+git clone https://github.com/celerityweb/react-flux-boilerplate.git
+cd react-flux-boilerplate
 npm install
 </code>
 

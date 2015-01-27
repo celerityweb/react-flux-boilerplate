@@ -1,6 +1,6 @@
 {
-  "name": "react-courses",
-  "version": "0.0.0",
+  "name": "react-flux-boilerplate",
+  "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
     "react": "^0.12.2",
