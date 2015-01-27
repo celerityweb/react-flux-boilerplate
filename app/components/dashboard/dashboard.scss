@@ -1,0 +1,84 @@
+.dashboard {
+    padding: 50px;
+    .input {
+        display: flex;
+        font-size: 1.2rem;
+        position: relative;
+        color: rgba(0,0,0,.8);
+        input {
+            margin: 0;
+            width: 100%;
+            outline: 0;
+            text-align: left;
+            line-height: 1.2142em;
+            font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+            padding: 1.5em 1em;
+            background: #fff;
+            border: 1px solid rgba(0,0,0,.15);
+            color: rgba(0,0,0,.8);
+            border-radius: .2857rem;
+            transition: background-color .2s ease,box-shadow .2s ease,border-color .2s ease;
+            box-shadow: none;
+            &:focus {
+                border-color: rgba(39,41,43,.3);
+                background: #fff;
+                color: rgba(0,0,0,.8);
+                box-shadow: none;
+            }
+        }
+        .button {
+            display: table-cell;
+            vertical-align: middle;
+            white-space: nowrap;
+            padding-top: .78571em;
+            padding-bottom: .78571em;
+            cursor: pointer;
+            display: inline-block;
+            min-height: 1em;
+            outline: 0;
+            border: none;
+            vertical-align: baseline;
+            background-color: #e0e0e0;
+            color: rgba(0,0,0,.6);
+            font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+            margin: 0 .25em 0 0;
+            padding: .78571em 1.5em;
+            text-transform: none;
+            text-shadow: none;
+            font-weight: 700;
+            line-height: 1;
+            font-style: normal;
+            text-align: center;
+            text-decoration: none;
+            background-image: none;
+            border-radius: .2857rem;
+            box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(39,41,43,.15) inset;
+            user-select: none;
+            transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+            will-change: '';
+        }
+    }
+    .result {
+        display: flex;
+    }
+    .search-results {
+        margin-top: 50px;
+    }
+    #gravitar-image {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .repos {
+        margin-left: 50px;
+    }
+    .repo-list {
+        margin-left: 50px;
+    }
+    form {
+        display: inherit;
+        width: 100%;
+    }
+}
+.left {
+    float: left;
+}

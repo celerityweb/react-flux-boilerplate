@@ -1,0 +1,12 @@
+.base-content {
+  min-height: 100%;
+  margin-bottom: -100px;
+  &:after {
+    content: "";
+    display: block;
+    height: 100px;
+  }
+}
+.base-layout {
+  height: 100%;
+}
