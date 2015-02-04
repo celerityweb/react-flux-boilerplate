@@ -45,3 +45,6 @@ npm install
 ### How to Test
 Run unit tests powered by Jest with the following npm command:
 <code>npm test</code>
+
+### Heavily Influenced By:
+[react-starter-kit](https://github.com/kriasoft/react-starter-kit)
