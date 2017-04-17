@@ -1,4 +1,4 @@
-###React Pirate Rrrr(React, Reflux & React-Router)
+### React Pirate Rrrr(React, Reflux & React-Router)
 
 ### What is React Pirate
 React Pirate is a boilerplate/starter kit for React/Flux Single Page Apps.  It provides a starting point that follows conventions and best practices recommended by production applications.
